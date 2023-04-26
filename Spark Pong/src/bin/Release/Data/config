@@ -1,0 +1,2 @@
+#Load 1 to use system memory, 2 to use video memory
+MEMLOAD 1

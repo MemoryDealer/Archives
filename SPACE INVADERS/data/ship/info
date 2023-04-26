@@ -1,0 +1,9 @@
+FILES: 3
+# SYNTAX:
+# filename of the frame, milliseconds to pause afterwards,
+# the RGB of the transparent part.
+#1.bmp       20    0 0 255
+
+ship.bmp     20    255 255 255
+ship2.bmp    20    255 255 255
+ship3.bmp    20    255 255 255

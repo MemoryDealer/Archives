@@ -1,0 +1,5 @@
+PROGRAM LOADS DATA FROM HERE
+
+If you want to change the ball and paddles, replace these files with the ones from the "Extras" folder
+
+YOU MUST keep the names: ball.bmp, pad1.bmp, and pad2.bmp

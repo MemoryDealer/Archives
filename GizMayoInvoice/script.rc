@@ -1,0 +1,64 @@
+
+/* Resource hand written */
+#include "resource.h"
+#include <afxres.h>
+
+IDI_MAIN_ICON ICON "main.ico"
+IDI_CHECK_ICON ICON "check.ico"
+
+IDR_MENU MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Save", IDR_FILE_SAVE
+        MENUITEM "&Print", IDR_FILE_PRINT
+        MENUITEM "S&ave and Print", IDR_FILE_SAVE_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "&Quit\tAlt+F4", IDR_FILE_QUIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About", IDR_HELP_ABOUT
+    END
+
+END
+
+IDD_MAIN DIALOG DISCARDABLE 0, 0, 230, 200
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX
+CAPTION "GizMayo Invoice"
+FONT 11, "MS Sans Serif"
+BEGIN
+    LTEXT "Name:", IDC_STATIC,                          40, 10, 40, 15
+    EDITTEXT IDC_EDIT_NAME,                             76, 8, 70, 12, ES_AUTOHSCROLL
+    LTEXT "Amount:    $", IDC_STATIC,                   40, 30, 40, 15
+    EDITTEXT IDC_EDIT_INPUT,                            76, 28, 70, 12, ES_AUTOHSCROLL
+    RADIOBUTTON "SubTotal", IDC_RADIO_SUBTOTAL,         149, 27, 40, 14, WS_GROUP
+    RADIOBUTTON "Total", IDC_RADIO_TOTAL,               193, 27, 45, 14
+    DEFPUSHBUTTON "&Calculate", IDC_BUTTON_CALC,        92, 57, 45, 14
+    //---------------------------------------------------------------------------
+    LTEXT "SubTotal: $", IDC_STATIC,                    40, 90, 50, 15
+    EDITTEXT IDC_EDIT_SUBTOTAL,                         76, 88, 70, 12, ES_AUTOHSCROLL
+    LTEXT "Tax:           $", IDC_STATIC,               40, 105, 50, 15
+    EDITTEXT IDC_EDIT_TAX,                              76, 103, 70, 12, ES_AUTOHSCROLL
+    LTEXT "-------------", IDC_STATIC,                  40, 118, 92, 12
+    LTEXT "Total:         $", IDC_STATIC,               40, 130, 50, 15
+    EDITTEXT IDC_EDIT_TOTAL,                            76, 128, 70, 12, ES_AUTOHSCROLL
+    PUSHBUTTON "&Add Comment", IDC_BUTTON_ADD_COMMENT,  163, 96, 50, 12
+    PUSHBUTTON "", IDC_BUTTON_CHECK,                    217, 97, 10, 10, BS_ICON
+    PUSHBUTTON "C&lear", IDC_BUTTON_CLEAR,              173, 128, 30, 12
+    //---------------------------------------------------------------------------
+    PUSHBUTTON "&Save", IDC_BUTTON_SAVE,                40, 160, 50, 20
+    PUSHBUTTON "&Print", IDC_BUTTON_PRINT,              90, 160, 50, 20
+    PUSHBUTTON "Sa&ve && Print", IDC_BUTTON_SAVE_PRINT, 140, 160, 50, 20
+END
+
+IDD_COMMENT DIALOG DISCARDABLE 0, 0, 180, 120
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX
+CAPTION "Add Comment"
+FONT 9, "MS Sans Serif"
+BEGIN
+    EDITTEXT IDC_EDIT_COMMENT,                  10, 9, 160, 80, ES_MULTILINE | ES_AUTOVSCROLL
+    PUSHBUTTON "&Add", IDOK,                    39, 98, 35, 15
+    PUSHBUTTON "&Cancel", IDCANCEL,             109, 98, 35, 15
+END
+

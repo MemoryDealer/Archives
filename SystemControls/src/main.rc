@@ -1,0 +1,107 @@
+/* Resource File Hand Written */
+#include "resource.h"
+#include <afxres.h>
+
+
+IDR_MENU MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open a file...",     ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Quit\tAlt+F4",       ID_FILE_QUIT
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Run...",             ID_TOOLS_RUN
+        MENUITEM "&Terminate Process",   ID_TOOLS_TERMINATE_PROC
+        MENUITEM SEPARATOR
+        MENUITEM "&Installer",          ID_TOOLS_INSTALLER
+        MENUITEM "&Set Admin Password", ID_TOOLS_SET_ADMIN_PASS
+        MENUITEM "R&enew IP Address",   ID_TOOLS_RENEW_IP
+        MENUITEM SEPARATOR
+        MENUITEM "&Disable Safe Mode",  ID_TOOLS_DISABLE_SAFE_MODE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&FAQ",                ID_HELP_FAQ
+        MENUITEM SEPARATOR
+        MENUITEM "&About",              ID_HELP_ABOUT
+    END
+END
+
+IDI_ICON ICON DISCARDABLE "SystemControls.ico"
+IDI_ICONSM ICON DISCARDABLE "SmIcon.ico"
+IDI_EXPLORER ICON DISCARDABLE "Explorer.ico"
+IDI_CMD ICON DISCARDABLE "cmd.ico"
+IDI_NOTEPAD ICON DISCARDABLE "notepad.ico"
+
+
+
+//=========================================
+                /*DIALOGS*/
+
+
+
+DLG_ABOUT DIALOG DISCARDABLE 225, 112, 242, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About System Controls v2.0"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON "&OK", IDOK, 170, 37, 50, 22
+    GROUPBOX "About", IDC_STATIC, 7, 7, 225, 82
+    CTEXT "This program can enable and disable certain system utilities, and implements various functions that are easy to use.\n\nDeveloped by Sparky :: csparky@live.com\n\nCopyright(C) 2010", IDC_STATIC, 16, 22, 144, 63
+END
+
+//=========================================
+
+DLG_RUN DIALOG DISCARDABLE 194, 85, 260, 35
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Run..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT DLG_RUN_IDC_TEXT, 20, 10, 100, 13
+    DEFPUSHBUTTON "&Run", IDOK, 134, 9, 50, 14
+    PUSHBUTTON "&Cancel", IDCANCEL, 194, 9, 50, 14
+END
+
+//=========================================
+
+DLG_INSTALLER DIALOG DISCARDABLE 132, 38, 195, 110
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Installer"
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON "&Install", DLG_INSTALLER_INSTALL, 40, 30, 50, 18
+    PUSHBUTTON "&Uninstall", DLG_INSTALLER_UNINSTALL, 110, 30, 50, 18
+    PUSHBUTTON "&Exit", IDCANCEL, 73, 55, 50, 18
+    CTEXT "", DLG_INSTALLER_TEXT, 53, 85, 90, 25
+END
+
+//=========================================
+
+DLG_SET_ADMIN_PASS DIALOG DISCARDABLE 132, 38, 180, 105
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Admin Pass"
+FONT 9, "MS Sans Serif"
+BEGIN
+    EDITTEXT DLG_SET_ADMIN_PASS_IDC_TEXT, 20, 20, 150, 13, ES_PASSWORD
+    DEFPUSHBUTTON "&Set", IDOK, 66, 50, 50, 18
+    PUSHBUTTON "&Exit", IDCANCEL, 66, 79, 50, 18
+END
+
+//=========================================
+
+
+DLG_TERMINATE_PROC DIALOG DISCARDABLE 220, 85, 260, 35
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Terminate Process"
+FONT 9, "MS Sans Serif"
+BEGIN
+    EDITTEXT DLG_TERMINATE_PROC_IDC_TEXT, 20, 10, 100, 13
+    DEFPUSHBUTTON "&Terminate", IDOK, 134, 9, 50, 14
+    PUSHBUTTON "&Cancel", IDCANCEL, 194, 9, 50, 14
+END
+
+//=========================================
+

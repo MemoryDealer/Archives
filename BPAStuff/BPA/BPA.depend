@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1267603824 source:c:\codeblocks\win32gui\bpastuff\bpa\main.cpp
+	<windows.h>
+	<commdlg.h>
+	<iostream>
+	<tchar.h>
+	<fstream>
+	"resource.h"
+
+1273435607 c:\codeblocks\win32gui\bpastuff\bpa\resource.h
+
+1273435618 source:c:\codeblocks\win32gui\bpastuff\bpa\resource.rc
+	"resource.h"
+	<afxres.h>
+

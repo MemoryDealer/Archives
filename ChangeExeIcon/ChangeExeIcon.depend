@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1291703002 source:c:\users\root\documents\codeblocks\tests\changeexeicon\main.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+

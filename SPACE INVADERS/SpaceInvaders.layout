@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="Game.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="86" topLine="0" />
+	</File>
+	<File name="Game.h" open="1" top="0" tabpos="4">
+		<Cursor position="145" topLine="0" />
+	</File>
+	<File name="Sprite.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1336" topLine="0" />
+	</File>
+	<File name="Sprite.h" open="1" top="0" tabpos="3">
+		<Cursor position="1476" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="193" topLine="33" />
+	</File>
+</CodeBlocks_layout_file>

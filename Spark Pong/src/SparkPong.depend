@@ -1,0 +1,84 @@
+# depslib dependency file v1.0
+1269028311 source:c:\codeblocks\sdl\games\sparkpong2\main.cpp
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<SDL/SDL.h>
+	<SDL/SDL_thread.h>
+	"game.h"
+	"resource.h"
+
+1268379837 c:\codeblocks\sdl\games\sparkpong2\ball.h
+
+1268379979 source:c:\codeblocks\sdl\games\sparkpong2\ball.cpp
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_thread.h>
+	"ball.h"
+
+1268451764 source:c:\codeblocks\sdl\sparkpong2\main.cpp
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_thread.h>
+	"game.h"
+
+1268401438 c:\codeblocks\sdl\sparkpong2\ball.h
+
+1268401580 source:c:\codeblocks\sdl\sparkpong2\ball.cpp
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_thread.h>
+	"ball.h"
+
+1268458180 c:\codeblocks\sdl\sparkpong2\game.h
+
+1268451542 source:c:\codeblocks\sdl\sparkpong2\game.cpp
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_thread.h>
+	"game.h"
+
+1268977002 c:\codeblocks\sdl\games\sparkpong2\game.h
+
+1269026250 source:c:\codeblocks\sdl\games\sparkpong2\game.cpp
+	<windows.h>
+	<stdlib.h>
+	<ctime>
+	<SDL/SDL.h>
+	<SDL/SDL_thread.h>
+	"game.h"
+
+1268958548 source:c:\codeblocks\sdl\games\sparkpong2\resource.rc
+	"resource.h"
+	<afxres.h>
+
+1268958494 c:\codeblocks\sdl\games\sparkpong2\resource.h
+
+1285909708 source:c:\users\root\documents\codeblocks\sdl\spark pong\src\main.cpp
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<SDL/SDL.h>
+	<SDL/SDL_thread.h>
+	"game.h"
+	"resource.h"
+
+1269228716 c:\users\root\documents\codeblocks\sdl\spark pong\src\game.h
+
+1285910517 c:\users\root\documents\codeblocks\sdl\spark pong\src\resource.h
+
+1269229040 source:c:\users\root\documents\codeblocks\sdl\spark pong\src\resource.rc
+	"resource.h"
+	<afxres.h>
+
+1269229060 source:c:\users\root\documents\codeblocks\sdl\spark pong\src\game.cpp
+	<windows.h>
+	<stdlib.h>
+	<ctime>
+	<SDL/SDL.h>
+	<SDL/SDL_thread.h>
+	"game.h"
+

@@ -1,0 +1,65 @@
+#include "resource.h"
+#include <afxres.h>
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "BPA.exe.manifest"
+
+
+IDI_ICON ICON "main.ico"
+
+IDR_MENU MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Quit\tAlt+F4", IDR_FILE_QUIT
+    END
+END
+
+IDD_MAIN DIALOG DISCARDABLE 0, 0, 375, 357
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX
+CAPTION "Financial Plans"
+FONT 11, "MS Sans Serif"
+BEGIN
+    LTEXT "Total Price:", IDC_STATIC,                                       310, 15, 50, 12
+    EDITTEXT IDC_EDT_PRICE,                                                 306, 28, 45, 11, ES_READONLY
+    LTEXT "Presets:", IDC_STATIC,                                           316, 60, 45, 11
+    COMBOBOX IDC_CMB_BUDGET,                                                306, 73, 45, 50, CBS_DROPDOWNLIST
+    PUSHBUTTON "Apply Preset", IDC_BTN_APPLYPRESET,                         304, 92, 50, 14
+    PUSHBUTTON "Save To File", IDC_BTN_SAVEFILE,                            304, 120, 50, 14
+    PUSHBUTTON "View File", IDC_BTN_VIEWFILE,                               304, 140, 50, 14
+    CTEXT "Quantity of Selected Item:", IDC_STATIC,                         306, 180, 50, 24
+    EDITTEXT IDC_EDT_QUANTITY,                                              309, 201, 45, 11
+    PUSHBUTTON "Apply Changes", IDC_BTN_APPLYQ,                             307, 216, 50, 14
+    PUSHBUTTON "Reset", IDC_BTN_RESET,                                      307, 266, 50, 14
+    LTEXT "(Including $7200 for labor)", IDC_STATIC,                       291, 42, 90, 12
+    //-----------------------------------------------------------------
+    GROUPBOX "Server", IDC_STATIC,                                          15, 10, 270, 40
+    RADIOBUTTON "$449.00 - HP ProLiant ML110 G6 Server series", IDC_RDO_SERVER_0,    25, 20, 252, 12
+    RADIOBUTTON "$829.00 - HP ProLiant ML310 G5p Server series", IDC_RDO_SERVER_1,   25, 32, 252, 12
+    //-----------------------------------------------------------------
+    GROUPBOX "Firewall", IDC_STATIC,                                        15, 55, 270, 40
+    RADIOBUTTON "$350.00 - Symantec SOHO Firewall", IDC_RDO_FIREWALL_0,               25, 65, 252, 12
+    RADIOBUTTON "$795.00 - SonicWALL TZ 210 Series", IDC_RDO_FIREWALL_1,              25, 77, 252, 12
+    //-----------------------------------------------------------------
+    GROUPBOX "Router", IDC_STATIC,                                          15, 100, 270, 40
+    RADIOBUTTON "$118.99 - Netgear FVG318 8-PORT Prosafe 802.11G Wireless VPN Firewall Router", IDC_RDO_ROUTER_0, 25, 110, 252, 12
+    RADIOBUTTON "$449.99 - Cisco Small Business RV016 10/100Mbps Router 2 x 10/100Mbps WAN", IDC_RDO_ROUTER_1, 25, 122, 254, 12
+    //-----------------------------------------------------------------
+    GROUPBOX "Switch", IDC_STATIC,                                         15, 145, 270, 40
+    RADIOBUTTON "$700.00 - ProSafe 48-port 10/100 L3 Managed Stackable Switch with 4 Gigabit Ports", IDC_RDO_SWITCHES_0, 25, 155, 256, 12
+    RADIOBUTTON "$1,005.00 - 3COM 4200G Switch", IDC_RDO_SWITCHES_1, 25, 167, 252, 12
+    //-----------------------------------------------------------------
+    GROUPBOX "Anti-virus", IDC_STATIC,                                     15, 190, 270, 52
+    RADIOBUTTON "$0.00 - Spybot Search and Destroy (Freeware)", IDC_RDO_ANTIVIRUS_0, 25, 200, 252, 12
+    RADIOBUTTON "$1,150 - McAffee Total Protection Service", IDC_RDO_ANTIVIRUS_1,             25, 212, 252, 12
+    RADIOBUTTON "$2,087.00 - Symantec EndPoint", IDC_RDO_ANTIVIRUS_2,     25, 224, 252, 12
+    //-----------------------------------------------------------------
+    GROUPBOX "Calendar Solutions", IDC_STATIC,                                    15, 248, 270, 40
+    RADIOBUTTON "$1,121.00 - Microsoft Exchange Server", IDC_RDO_CALENDAR_0,             25, 260, 252, 12
+    RADIOBUTTON "$1,795.00 - Lotus Notes Server", IDC_RDO_CALENDAR_1,      25, 272, 252, 12
+    //-----------------------------------------------------------------
+    GROUPBOX "Modem", IDC_STATIC,                                         15, 294, 268, 40
+    RADIOBUTTON "$550.00 - FOM-T1 T1 Fiber Modem", IDC_RDO_MODEM_0,                                 25, 304, 252, 12
+    RADIOBUTTON "$804.95 - FibroLAN Advanced Fiber-optic T1 Modem", IDC_RDO_MODEM_1,                                 25, 316, 252, 12
+END
+
+

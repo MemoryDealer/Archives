@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1267953805 source:c:\codeblocks\tetris\main.cpp
+	<windows.h>
+	<cstdlib>
+	"bitmapobject.h"
+
+1267953112 c:\codeblocks\tetris\bitmapobject.h
+	<windows.h>
+
+1267952135 source:c:\codeblocks\tetris\bitmapobject.cpp
+	"bitmapobject.h"
+
+1267993409 source:c:\codeblocks\games\tetris\main.cpp
+	<windows.h>
+	<cstdlib>
+	"bitmapobject.h"
+
+1267931514 c:\codeblocks\games\tetris\bitmapobject.h
+	<windows.h>
+
+1267930536 source:c:\codeblocks\games\tetris\bitmapobject.cpp
+	"bitmapobject.h"
+

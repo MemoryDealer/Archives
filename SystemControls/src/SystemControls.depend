@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1262665414 source:c:\codeblocks\systemcontrols\systemcontrols\main.rc
+	"resource.h"
+	<afxres.h>
+
+1262665414 c:\codeblocks\systemcontrols\systemcontrols\resource.h
+
+1262666897 source:c:\codeblocks\systemcontrols\systemcontrols\main.cpp
+	"main.h"
+
+1262667118 c:\codeblocks\systemcontrols\systemcontrols\main.h
+	"resource.h"
+	<windows.h>
+	<tchar.h>
+	<commdlg.h>
+	<shellapi.h>
+	<shlobj.h>
+	<string>
+	<fstream>
+
+1262665416 source:c:\users\root\documents\codeblocks\win32gui\systemcontrols\src\main.rc
+	"resource.h"
+	<afxres.h>
+
+1262665416 c:\users\root\documents\codeblocks\win32gui\systemcontrols\src\resource.h
+
+1262666898 source:c:\users\root\documents\codeblocks\win32gui\systemcontrols\src\main.cpp
+	"main.h"
+
+1262667120 c:\users\root\documents\codeblocks\win32gui\systemcontrols\src\main.h
+	"resource.h"
+	<windows.h>
+	<tchar.h>
+	<commdlg.h>
+	<shellapi.h>
+	<shlobj.h>
+	<string>
+	<fstream>
+

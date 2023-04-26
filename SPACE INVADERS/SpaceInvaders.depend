@@ -1,0 +1,131 @@
+# depslib dependency file v1.0
+1269383298 source:c:\codeblocks\sdl\spaceinvaders\sprite.cpp
+	"Sprite.h"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1269383298 c:\codeblocks\sdl\spaceinvaders\sprite.h
+	<SDL/SDL.h>
+
+1269396958 source:c:\codeblocks\sdl\spaceinvaders\main.cpp
+	"Game.h"
+	<stdlib.h>
+	<stdio.h>
+
+1269398730 c:\codeblocks\sdl\spaceinvaders\game.h
+	"Sprite.h"
+	<SDL/SDL.h>
+
+1269397604 source:c:\codeblocks\sdl\spaceinvaders\game.cpp
+	"Game.h"
+
+1269402198 source:c:\codeblocks\sdl\games\spaceinvaders\sprite.cpp
+	"Sprite.h"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1269420139 c:\codeblocks\sdl\games\spaceinvaders\sprite.h
+	<SDL/SDL.h>
+
+1269420969 source:c:\codeblocks\sdl\games\spaceinvaders\main.cpp
+	"Game.h"
+	<stdio.h>
+
+1269420866 c:\codeblocks\sdl\games\spaceinvaders\game.h
+	"Sprite.h"
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_Thread.h>
+
+1269421194 source:c:\codeblocks\sdl\games\spaceinvaders\game.cpp
+	"Game.h"
+
+1269398600 source:i:\programming\skills\space invaders\sprite.cpp
+	"Sprite.h"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1269416540 i:\programming\skills\space invaders\sprite.h
+	<SDL/SDL.h>
+
+1269417596 source:i:\programming\skills\space invaders\game.cpp
+	"Game.h"
+
+1269417268 i:\programming\skills\space invaders\game.h
+	"Sprite.h"
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_Thread.h>
+
+1269398600 source:d:\programming\skills\space invaders\sprite.cpp
+	"Sprite.h"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1269416540 d:\programming\skills\space invaders\sprite.h
+	<SDL/SDL.h>
+
+1269417596 source:d:\programming\skills\space invaders\game.cpp
+	"Game.h"
+
+1269417268 d:\programming\skills\space invaders\game.h
+	"Sprite.h"
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_Thread.h>
+
+1269435556 source:d:\programming\skills\space invaders\main.cpp
+	"Game.h"
+	<stdio.h>
+
+1269423800 source:g:\programming\skills\space invaders\sprite.cpp
+	"Sprite.h"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1269441740 g:\programming\skills\space invaders\sprite.h
+	<SDL/SDL.h>
+
+1269460756 source:g:\programming\skills\space invaders\main.cpp
+	"Game.h"
+	<stdio.h>
+
+1269442468 g:\programming\skills\space invaders\game.h
+	"Sprite.h"
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_Thread.h>
+
+1269507560 source:g:\programming\skills\space invaders\game.cpp
+	"Game.h"
+
+1274122087 source:c:\users\root\documents\codeblocks\space invaders\sprite.cpp
+	"Sprite.h"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1274121903 c:\users\root\documents\codeblocks\space invaders\sprite.h
+	<SDL/SDL.h>
+	<windows.h>
+
+1274288663 source:c:\users\root\documents\codeblocks\space invaders\main.cpp
+	"Game.h"
+	<windows.h>
+	<stdio.h>
+
+1274292770 c:\users\root\documents\codeblocks\space invaders\game.h
+	"Sprite.h"
+	<stdlib.h>
+	<windows.h>
+	<SDL/SDL.h>
+	<SDL/SDL_Thread.h>
+
+1274298790 source:c:\users\root\documents\codeblocks\space invaders\game.cpp
+	"Game.h"
+

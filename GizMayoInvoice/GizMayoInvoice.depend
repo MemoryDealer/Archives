@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1265485027 source:c:\codeblocks\win32gui\gizmayoinvoice\script.rc
+	"resource.h"
+	<afxres.h>
+
+1265485027 c:\codeblocks\win32gui\gizmayoinvoice\resource.h
+
+1265487507 source:c:\codeblocks\win32gui\gizmayoinvoice\main.cpp
+	<windows.h>
+	<commdlg.h>
+	<shlobj.h>
+	<iostream>
+	<fstream>
+	"resource.h"
+

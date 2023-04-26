@@ -1,0 +1,23 @@
+/* Resource hand written */
+
+#include <afxres.h>
+#include "resource.h"
+
+/* For visual theming */
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "rot13.exe.manifest"
+
+IDI_MAIN ICON DISCARDABLE "main.ico"
+
+IDR_MENU MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Clear",        IDR_FILE_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Quit\tAlt+F4", IDR_FILE_QUIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",        IDR_HELP_ABOUT
+    END
+END

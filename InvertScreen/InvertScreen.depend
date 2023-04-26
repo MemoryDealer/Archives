@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1193991332 source:c:\codeblocks\win32gui\invertscreen\resource.rc
+	"resource.h"
+
+1193991332 c:\codeblocks\win32gui\invertscreen\resource.h
+	<windows.h>
+
+1271996131 source:c:\codeblocks\win32gui\invertscreen\main.cpp
+	<windows.h>
+	<stdlib.h>
+	"resource.h"
+

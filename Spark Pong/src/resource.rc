@@ -1,0 +1,33 @@
+/* resource.rc */
+#include "resource.h"
+#include <afxres.h>
+
+IDI_ICON ICON MOVEABLE PURE LOADONCALL DISCARDABLE "icon.ico"
+
+IDD_OPTIONS DIALOGEX 0, 0, 252, 340
+CAPTION "SparkPong Options"
+FONT 9, "MS Sans Serif", 0, 0, 1
+STYLE DS_MODALFRAME | WS_POPUP
+BEGIN
+    RADIOBUTTON "One Player", IDC_RDO_1PLAYER,          30, 10, 50, 14
+    RADIOBUTTON "Two Player", IDC_RDO_2PLAYER,          80, 10, 50, 14
+    //---------
+    GROUPBOX "Game Speed", IDC_STATIC,                  10, 30, 75, 67
+    RADIOBUTTON "User Friendly", IDC_RDO_SPEED1,        20, 45, 60, 14
+    RADIOBUTTON "Asian", IDC_RDO_SPEED2,        20, 60, 60, 14
+    RADIOBUTTON "Forrest Gump", IDC_RDO_SPEED3,         20, 75, 60, 14
+    //---------
+    GROUPBOX "AI Level", IDC_STATIC,                    10, 106, 75, 65
+    RADIOBUTTON "Rodent", IDC_RDO_AI1,                  20, 120, 60, 14
+    RADIOBUTTON "Child", IDC_RDO_AI2,                   20, 135, 60, 14
+    RADIOBUTTON "Mountain Lion", IDC_RDO_AI3,           20, 150, 60, 14
+    //---------
+    CTEXT "-CONTROLS-\n\nBLUE PLAYER: \nUP: A \nDOWN: Z\n\nRED PLAYER: \nUP: UpArrow\nDOWN: DownArrow\n\nSPACEBAR to pause\n\nF6 to toggle practice mode", IDC_STATIC, 85, 36, 80, 115
+    //---------
+    CHECKBOX "Sound", IDC_CHK_SOUND,                    106, 154, 35, 14
+    //---------
+    LTEXT "Paddle Speed:", IDC_STATIC,                  10, 179, 60, 14
+    EDITTEXT IDC_EDT_SPEED,                             63, 178, 20, 11, ES_READONLY
+    PUSHBUTTON "+", IDC_BTN_PLUS,                       90, 178, 12, 11
+    PUSHBUTTON "-", IDC_BTN_MINUS,                      104, 178, 12, 11
+END

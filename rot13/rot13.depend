@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1273734496 source:c:\codeblocks\win32gui\rot13\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<shlwapi.h>
+	"resource.h"
+
+1273732720 source:c:\codeblocks\win32gui\rot13\resource.rc
+	<afxres.h>
+	"resource.h"
+
+1273732161 c:\codeblocks\win32gui\rot13\resource.h
+
+1273732720 source:c:\users\sparky\documents\codeblocks\win32gui\rot13\resource.rc
+	<afxres.h>
+	"resource.h"
+
+1273732161 c:\users\sparky\documents\codeblocks\win32gui\rot13\resource.h
+
+1273725522 source:c:\users\root\documents\codeblocks\win32gui\rot13\resource.rc
+	<afxres.h>
+	"resource.h"
+
+1273724962 c:\users\root\documents\codeblocks\win32gui\rot13\resource.h
+
