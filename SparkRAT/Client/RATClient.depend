@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1273436386 source:c:\codeblocks\security\ratclient\resource.rc
+	"resource.h"
+	<afxres.h>
+
+1273436757 c:\codeblocks\security\ratclient\resource.h
+
+1273561699 source:c:\codeblocks\security\ratclient\main.cpp
+	"procs.h"
+
+1273561241 source:c:\codeblocks\security\ratclient\procs.cpp
+	"procs.h"
+
+1273217360 c:\codeblocks\security\ratclient\procs.h
+	<windows.h>
+	<commctrl.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<tchar.h>
+	<string>
+	"resource.h"
+
+1273820815 source:c:\users\sparky\documents\codeblocks\security\ratclient\resource.rc
+	"resource.h"
+	<afxres.h>
+
+1273436757 c:\users\sparky\documents\codeblocks\security\ratclient\resource.h
+
+1273561699 source:c:\users\sparky\documents\codeblocks\security\ratclient\main.cpp
+	"procs.h"
+
+1273957902 c:\users\sparky\documents\codeblocks\security\ratclient\procs.h
+	<windows.h>
+	<commctrl.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<tchar.h>
+	<string>
+	"resource.h"
+
+1273957902 source:c:\users\sparky\documents\codeblocks\security\ratclient\procs.cpp
+	"procs.h"
+
+1275328931 source:c:\users\root\documents\codeblocks\security\ratclient\procs.cpp
+	"procs.h"
+
+1275328931 c:\users\root\documents\codeblocks\security\ratclient\procs.h
+	<windows.h>
+	<commctrl.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<tchar.h>
+	<string>
+	"resource.h"
+
+1274802675 c:\users\root\documents\codeblocks\security\ratclient\resource.h
+
+1275327542 source:c:\users\root\documents\codeblocks\security\ratclient\resource.rc
+	"resource.h"
+	<afxres.h>
+
+1274801977 source:c:\users\root\documents\codeblocks\security\ratclient\main.cpp
+	"procs.h"
+
